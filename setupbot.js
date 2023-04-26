@@ -62,5 +62,5 @@ client.login(process.env.BOT_TOKEN);`;
 
 fs.writeFileSync('index.js', botEntry);
 
-// Create a .env file for the bot token
+// Create a .env file for the bot token 
 fs.writeFileSync('.env', 'BOT_TOKEN=your-bot-token-here');
